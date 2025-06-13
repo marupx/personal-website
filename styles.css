@@ -1,0 +1,44 @@
+body {
+    background-color: #F5F5DC;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#navlist{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#navlist li {
+    float: left;
+}
+
+#navlist a {
+    display: block;
+    color: black;
+    padding: 0px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 25px;
+}
+
+#navlist a:hover{
+    text-decoration: underline;
+}
+
+#headerHome {
+    text-align: center;
+    margin-top: 300px;
+}
+
+#welcomeText {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
