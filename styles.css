@@ -1,11 +1,24 @@
 body {
     background-color: #F5F5DC;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    background-color: grey;
+    padding: 20px;
+}
+
+main {
+    flex: 1;
 }
 
 #navbar{
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 #navlist{
@@ -41,4 +54,17 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+footer {
+    background-color: gray;
+    padding: 20px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#footerIcon {
+    margin: 0px 20px;
+    font-size: 30px;
 }
