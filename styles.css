@@ -2,10 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 100%;
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(80, 50, 101);
+    background-color: rgba(228, 192, 244, 0.5);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 .navbar {
@@ -37,4 +47,41 @@ body {
     font-size: 1.2em;
     font-weight: bold;
     transition: all 0.3s ease;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+.IntroductionText {
+    display: block;
+    padding-left: 200px;
+    padding-top: 250px;
+    padding-right: 100px;
+}
+
+.IntroductionText h1 {
+    font-size: 2.5em;
+}
+
+.IntroductionText p {
+    margin-bottom: 20px;
+}
+
+#welcomePhoto {
+    width: 500px;
+    margin-left: 250px;
+    margin-bottom: 25px;
+}
+
+.footer {
+    background-color: rgb(37, 25, 42);
+    padding: 1rem;
+    width: 100%;
+}
+
+#footerIcon {
+    font-size: 2em;
+    color: white;
 }
